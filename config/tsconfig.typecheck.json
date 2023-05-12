@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.common.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "inlineSources": false
+  },
+  "include": [
+    "../src/**/*.ts",
+    "../test/**/*.ts"
+  ]
+}
